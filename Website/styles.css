@@ -1,0 +1,101 @@
+.header-logo {
+    shape-margin: 14%;
+    background-color: rgb(255, 235, 238);
+    padding: 0.8%;
+    text-align: center;
+    color: pink;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+body, html {
+    height: 50%;
+}
+
+.hero-image {
+    background-color: rgb(255, 236, 239);
+    height: 100%;
+    padding: 15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+
+button{
+    background-color: transparent;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid pink;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.1);
+    color: pink;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+button::before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: pink;
+    z-index: -1;
+}
+button:hover, button:focus {
+    color:white;
+}
+button:hover:before, button:focus:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0; 
+    opacity: 1;
+}
+button:active {
+    transform: scale(0.9);
+}
+
+
+
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(254, 211, 218);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(100, 70, 70);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: pink;
+}
+.navbar li{
+    float: left;
+}
