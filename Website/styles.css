@@ -3,18 +3,20 @@
     padding: 12px 20px;
     text-align: left;
     color: pink;
-    float: left;
     font-weight: bold;
     letter-spacing: 2px;
+    float: left;
+    padding: 12px 20px;
+    text-align: left;
+    margin: 0;
+    line-height: 1.2;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header {
     overflow: hidden;
     background-color: rgb(254, 211, 218);
-    text-align: center;
+
+
 }
 
 body{
@@ -106,6 +108,7 @@ h1{
     padding: 15px;
     display: block;
     text-align: center;
+    padding: 22px 15px;
 }
 .navbar a:hover{
     background-color: pink;
@@ -113,3 +116,4 @@ h1{
 .navbar li{
     float: left;
 }
+
