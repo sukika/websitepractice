@@ -115,5 +115,7 @@ h1{
 }
 .navbar li{
     float: left;
+    padding: 5px 5px;
+    align-items: center;
 }
 
