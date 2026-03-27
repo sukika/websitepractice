@@ -1,14 +1,11 @@
 .header-logo {
-    background-color: rgb(255, 235, 238);
     padding: 12px 20px;
     text-align: left;
     color: pink;
     font-weight: bold;
     letter-spacing: 2px;
     float: left;
-    padding: 12px 20px;
     text-align: left;
-    margin: 0;
     line-height: 1.2;
 }
 
@@ -38,8 +35,52 @@ body{
     position: relative;
 }
 
+.about {
+    display: flex;
+    background-color:  rgb(254, 211, 218);
+    color:rgb(100, 70, 70);
+    height: 25%;
+    padding: 80px;
+}
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    margin-top: 100px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
 
+.card {
+    display: flex;
+    max-width: 250px;
+    max-height: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: fit-content;
+    box-shadow: 2px;
+
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    transition: 0.7 ease;
+}
+.card::view-transition {
+    transform: rotate(-8px);
+}
+
+.img {
+    display: flex;
+}
 
 .btn{
     background-color: transparent;
@@ -116,6 +157,6 @@ h1{
 .navbar li{
     float: left;
     padding: 5px 5px;
-    align-items: center;
 }
 
+.navbar {float: right;}
