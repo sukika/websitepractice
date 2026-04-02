@@ -42,7 +42,7 @@ body{
     height: 25%;
     padding: 80px;
 }
-.cat_jpg {
+.img {
     display: flex;
     justify-content: center;
 }
