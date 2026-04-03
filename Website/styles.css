@@ -147,6 +147,7 @@ h1{
 }
 .navbar a:hover{
     background-color: pink;
+    transition: 0.7s;
 }
 .navbar li{
     float: left;
