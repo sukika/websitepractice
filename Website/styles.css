@@ -56,7 +56,6 @@ body{
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
-    
 }
 
 .card {
@@ -76,15 +75,9 @@ body{
 
 .card:hover {
     transform: translateY(-8px);
-    transition: 0.7 ease;
-}
-.card::view-transition {
-    transform: rotate(-8px);
+    transition: 0.9s ease;
 }
 
-.img {
-    display: flex;
-}
 
 .btn{
     background-color: transparent;
