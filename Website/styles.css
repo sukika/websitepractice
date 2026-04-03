@@ -24,7 +24,7 @@ body{
 
 
 .hero-image {
-    background-color: rgb(255, 236, 239);
+    background-image: linear-gradient(to right, pink, white);
     height: 100%;
     padding: 15%;
     border-color: rgb(255, 175, 188);
