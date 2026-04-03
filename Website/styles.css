@@ -33,6 +33,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    color:     rgb(100, 70, 70);
 }
 
 .about {
