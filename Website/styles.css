@@ -12,8 +12,6 @@
 header {
     overflow: hidden;
     background-color: rgb(254, 211, 218);
-
-
 }
 
 body{
@@ -33,7 +31,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    color:     rgb(100, 70, 70);
+    color: rgb(100, 70, 70);
+    
 }
 
 .about {
@@ -149,6 +148,7 @@ h1{
 .navbar a:hover{
     background-color: pink;
     transition: 0.7s;
+    transform: rotate(360deg);
 }
 .navbar li{
     float: left;
@@ -156,3 +156,5 @@ h1{
 }
 
 .navbar {float: right;}
+
+
