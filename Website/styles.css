@@ -1,7 +1,7 @@
 .header-logo {
     padding: 12px 20px;
     text-align: left;
-    color: pink;
+    color: #EA785B;
     font-weight: bold;
     letter-spacing: 2px;
     float: left;
@@ -11,7 +11,7 @@
 
 header {
     overflow: hidden;
-    background-color: rgb(254, 211, 218);
+    background-color: #EA785B;
 }
 
 body{
@@ -24,7 +24,7 @@ body{
 
 
 .hero-image {
-    background-image: linear-gradient(to right, pink, white);
+    background-image: linear-gradient(to right, #F0BBB4, white);
     height: 100%;
     padding: 15%;
     border-color: rgb(255, 175, 188);
