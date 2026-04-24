@@ -11,7 +11,7 @@
 
 header {
     overflow: hidden;
-    background-color: #EA785B;
+    background-color: pink;
 }
 
 body{
@@ -24,15 +24,15 @@ body{
 
 
 .hero-image {
-    background-image: linear-gradient(to right, #F0BBB4, white);
+    background-image: linear-gradient(to right, #F0BBB4, rgb(168, 231, 243));
     height: 100%;
     padding: 15%;
     border-color: rgb(255, 175, 188);
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    color: rgb(100, 70, 70);
-    
+    color: #fff7ef;
+
 }
 
 .about {
@@ -130,7 +130,7 @@ h1{
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(254, 211, 218);
+    background-color: pink;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -146,7 +146,7 @@ h1{
     padding: 22px 15px;
 }
 .navbar a:hover{
-    background-color: pink;
+    background-color: rgb(255, 227, 231);
     transition: 0.7s;
     transform: rotate(360deg);
 }
